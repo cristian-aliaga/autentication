@@ -19,7 +19,7 @@ export const AuthForm = () => {
       setToken(userData.detail.token)
     } else {
       const userData = await signupService(dataObject);
-      console.log(userData.detail.toke);
+      console.log(userData.detail.token);
       setToken(userData.detail.token)
     }
   }

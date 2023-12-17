@@ -6,6 +6,7 @@ function App() {
 
   return (
     <>
+    <p>APP</p>
       <UserProvider>
         <Routes>
           <Route path='/login' element={<AuthForm />}></Route>

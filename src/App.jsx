@@ -6,11 +6,11 @@ function App() {
 
   return (
     <>
-    <p>APP</p>
       <UserProvider>
-        <Routes>
-          <Route path='/login' element={<AuthForm />}></Route>
-        </Routes>
+      <Routes>
+        <Route path='/' element={<AuthForm />}></Route>
+        <Route path='/login' element={<AuthForm />}></Route>
+      </Routes>
       </UserProvider>
     </>
   )
